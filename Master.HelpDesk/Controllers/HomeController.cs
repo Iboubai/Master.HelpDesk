@@ -1,8 +1,4 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Web;
-using System.Web.Mvc;
+﻿using System.Web.Mvc;
 
 namespace Master.HelpDesk.Controllers
 {
@@ -15,5 +11,19 @@ namespace Master.HelpDesk.Controllers
             return View();
         }
 
+        public ActionResult Tickets()
+        {
+            return View();
+        }
+        
+        public ActionResult Applications()
+        {
+            return View();
+        }
+        
+        public ActionResult Configuration()
+        {
+            return View();
+        }
     }
 }
